@@ -4,23 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fogo Fire Ascension</title>
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Fogo Fire Ascension </h1>
+  <h1>Fogo Fire Ascension</h1>
   <div id="score">Score: 0</div>
-  <canvas id="game" width="500" height="540"></canvas> <!-- Reduced canvas size -->
+  <canvas id="game" width="500" height="540"></canvas>
+  
   <div id="gameOver">
     <h2>Game Over!</h2>
     <p id="finalScore"></p>
     <button onclick="restartGame()">Restart</button>
   </div>
+  
   <div id="startOverlay">
     <h2>Fogo Fire Ascension</h2>
-    <p>Press any key to start...</p>
+    <button onclick="startGame()">Start Game</button>
   </div>
 
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
